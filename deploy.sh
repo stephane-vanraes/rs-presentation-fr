@@ -1,5 +1,5 @@
 git branch gh-pages
-git checout gh-pages
+git checkout gh-pages
 git merge master
 npm run build
 cp -r public /
