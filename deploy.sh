@@ -2,7 +2,7 @@ git branch gh-pages
 git checkout gh-pages
 git merge master
 npm run build
-mv public public/.* .
+mv public/* public/.* .
 rm -r src
 rm -r public
 git add . 
