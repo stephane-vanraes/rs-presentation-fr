@@ -1,8 +1,0 @@
----
-    centered: true
----
-
-## Que sont les «composants sans rendu»?
-## À quoi ça sert ?
-## Quelques techniques
-## Plus d'informations 

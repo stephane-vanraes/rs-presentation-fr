@@ -1,9 +1,0 @@
----
-    centered: true
----
-
-# Des composants sans rendu
-
-Stéphane <small>"Rainlife"</small> Vanraes
-
-Svelte Society Day France 27.09.2020

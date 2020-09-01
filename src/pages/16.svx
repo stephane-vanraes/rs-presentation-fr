@@ -1,8 +1,0 @@
----
-    centered: true
----
-
-# [www.renderless-svelte.dev](http://www.renderless-svelte.dev)
-# [@StephaneVanraes](https://twitter.com/StephaneVanraes)
-
-# 'Rainlife' sur le Discord Svelte 👋

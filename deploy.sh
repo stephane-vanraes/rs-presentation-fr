@@ -1,7 +1,9 @@
 git branch gh-pages
 git merge master
 npm run build
-cp -r public /
+mv public/* public/.* .
+rm -r public
+rm -r src
 git add . 
 git commit -m "Publish"
 git push origin --force
