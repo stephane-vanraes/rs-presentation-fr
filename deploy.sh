@@ -5,6 +5,6 @@ npm run build
 cp -r public /
 git add . 
 git commit -m "Publish"
-git push --force
+git push --force --set-upstream origin gh-pages
 git checkout master
 git branch -d gh-pages
