@@ -6,3 +6,5 @@
 # [@StephaneVanraes](https://twitter.com/StephaneVanraes)
 
 # 'Rainlife' sur le Discord Svelte 👋
+
+[https://stephane-vanraes.github.io/rs-presentation-fr/](https://stephane-vanraes.github.io/rs-presentation-fr/)
