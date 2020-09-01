@@ -1,0 +1,17 @@
+<script>
+	import { getContext } from 'svelte'
+	export let isOpen = false
+	
+	const close = () => isOpen = false
+	const toggle = () => isOpen = !isOpen
+	
+	const { setCurrent } = getContext('accordeon')
+	
+	$: isOpen && setCurrent(close)
+	
+</script>
+
+<slot name="header" {toggle} {isOpen} />
+{#if isOpen}
+	<slot />
+{/if}

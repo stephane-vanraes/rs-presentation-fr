@@ -1,0 +1,11 @@
+# Pourquoi ?
+
+En faisant abstraction de la logique commune du style, nous pouvons facilement réutiliser des composants parmi les projets.
+
+# Comment ?
+
+slots
+
+setContext / getContext
+
+`<script>context="module"</script>`

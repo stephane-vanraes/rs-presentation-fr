@@ -1,0 +1,13 @@
+---
+    centered: true
+---
+
+# Que sont les 'composant sans rendu' ?
+
+Un composant sans rendu est un composant qui ne contient pas du HTML.
+
+Example de base:
+
+```svelte
+<slot></slot>
+```

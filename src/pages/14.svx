@@ -1,0 +1,20 @@
+<script>
+    import CodeTabs from '../components/CodeTabs.svelte'
+    import Example from '../examples/14/Example.svelte'
+    import ExampleCode from '../examples/14/Example.svx'
+    import AccordeonCode from '../examples/14/Accordeon.svx'
+    import AccordeonItemCode from '../examples/14/AccordeonItem.svx'
+
+    const items = [
+        { label: "Le complex", code: AccordeonCode },
+        { label: "L'accordéon", code: AccordeonItemCode },
+        { label:"L'usage", code: ExampleCode } 
+    ]
+</script>
+
+# Encore du context module
+
+Nous pouvons également utiliser l'approche du context module pour faciliter une sorte de communication entre les composants enfants.
+<br/>
+<Example />
+<CodeTabs {items} />
