@@ -1,0 +1,33 @@
+{
+    "smurfs": [
+        {
+            "name": "Schtroumpfette",
+            "image": "/images/smurfette.jpg",
+            "description": "Jusqu'à l'arrivée de Sassette, Schtroumpfette était la seule femelle du village des Schtroumpfs. Créée à l'origine par Gargamel pour semer la méfiance et la jalousie parmi les Schtroumpfs, elle est maintenant un membre aimé et respecté de la communauté."
+        },
+        {
+            "name": "Grand Schtroumpf",
+            "image": "/images/papa.png",
+            "description": "Le Grand Schtroumpf est le leader incontesté et glorieux des Schtroumpfs. Il règne d'une main de velours, laissant les Schtroumpfs explorer seuls, ne les guidant que si nécessaire."
+        },
+        {
+            "name": "Bebe Schtroumpf",
+            "image": "/images/baby.jpg",
+            "description": "Le Bebe Schtroumpf a été amené au village par une cigogne pendant une nuit avec une lune bleue. Quelques jours plus tard, le village a reçu une lettre indiquant que la livraison était une erreur et que le Bebe devait être rendu. Cependant, grâce aux actions du Schtroumpf Grognon, Bebe Schtroumpf est finalement resté dans le village."
+        }
+    ],
+    "notSmurfs": [
+        {
+                "name": "Gargamel",
+                "image": "/images/gargamel.jpg",
+                "description": "Gargamel est le principal ennemi des Schtroumpfs, après avoir été humilié par Papa Schtroumpfs alors qu'il étudiait pour devenir un sorcier, il a juré de se venger des Schtroumpfs."
+
+        },
+        {
+                "name": "Azrael",
+                "image": "/images/azrael.jpg",
+                "description": "Azrael est son chat Gargamel, bien qu'il soit plus intelligent que lui, il est fidèle à son maître et craint par les Schtroumpfs pour sa ruse et (surtout) ses griffes."
+
+        }
+    ]
+}

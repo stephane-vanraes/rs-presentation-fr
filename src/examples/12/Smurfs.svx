@@ -1,0 +1,14 @@
+```svelte
+<script>
+	import { show } from './Notification.svelte'
+	import { smurfs } from '../../data.json'
+</script>
+
+<div>
+	{#each smurfs as smurf}		
+		<div class="image" on:click="{() => show(`C'est ${smurf.name}`)}">
+			<img src="{smurf.image}" alt="">
+		</div>
+	{/each}
+</div>
+```

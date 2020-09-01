@@ -1,0 +1,19 @@
+```svelte
+<script>
+    import { slide } from 'svelte/transition'
+	import Accordeon from './Accordeon.svelte'
+	import data from '../../data.json'
+</script>
+
+{#each data as { name, image }}
+    <Accordeon header="{name}" let:toggle>
+		<button slot="header" on:click={toggle}>{name}</button>
+        <div in:slide out:slide>
+            <img src="{image}" alt="{name}">
+            <div>
+                <h3>{name}</h3>
+            </div>		
+        </div>
+    </Accordeon>
+{/each}
+```

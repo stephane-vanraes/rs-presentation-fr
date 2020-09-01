@@ -1,0 +1,15 @@
+```svelte
+<script>
+	export let header
+	
+	let isOpen = false
+	const toggle = () => isOpen = !isOpen
+</script>
+
+<div>
+	<button on:click={toggle}>{header}</button>
+	{#if isOpen}
+		<slot />
+	{/if}
+</div>
+```
