@@ -14,7 +14,7 @@
 		background-color: hsl(var(--hue), 100%, 80%);
 		border: 2px solid hsl(var(--hue), 100%, 30%);
 		border-radius: .25em;
-		color: hsl(var(--hue), 100%, 30%);	
+		color: hsl(var(--hue), 100%, 20%);	
 		flex: 1 0;
 		margin: .5em;
 		margin-top: 0;

@@ -12,6 +12,10 @@
 
 	let show = false
 	onMount(() => show = true)
+
+	const moveTo = idx => currentIndex.set(idx, {
+		duration: Math.abs(idx - $currentIndex) <= 1 ? 0 : 500 
+	})
 </script>
 
 <style>
@@ -79,7 +83,7 @@
 	<div class:current={$currentIndex === idx}
 		 class:past={$currentIndex > idx}
 		 style="--hue: {page.hue}">
-		<button on:click="{() => currentIndex.set(idx)}"
+		<button on:click="{() => moveTo(idx)}"
 				in:scale={{ duration: 100, delay: 50*idx }}>
 			{idx+1}
 		</button>
