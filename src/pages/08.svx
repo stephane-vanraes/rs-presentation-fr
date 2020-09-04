@@ -1,12 +1,5 @@
-<script>
-    import Smurfs from '../examples/08/Smurfs.svelte'
-    import NotSmurfs from '../examples/08/NotSmurfs.svelte'
-</script>
+---
+    centered: true
+---
 
-# Différenciation
-
-Les deux cas suivants utilisent le même accordéon de base, mais sont différents de style.
-<br/>
-<Smurfs />
-<NotSmurfs />
-
+# Le Provider Pattern

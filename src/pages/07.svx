@@ -1,17 +1,12 @@
 <script>
-    import CodeTabs from '../components/CodeTabs.svelte'
-    import Example from '../examples/07/Example.svelte'
-    import AccordeonCode from '../examples/06/Accordeon.svx'
-    import ExampleCode from '../examples/06/Example.svx'
-
-    const items = [
-        { label: "L'accordéon", code: AccordeonCode },
-        { label: "L'example", code: ExampleCode }
-    ]
+    import Smurfs from '../examples/08/Smurfs.svelte'
+    import NotSmurfs from '../examples/08/NotSmurfs.svelte'
 </script>
 
-# La même chose mais 'renderless'
-<br/>
-<Example />
+# Différenciation
 
-<CodeTabs {items} />
+Les deux cas suivants utilisent le même accordéon de base, mais sont différents de style.
+<br/>
+<Smurfs />
+<NotSmurfs />
+

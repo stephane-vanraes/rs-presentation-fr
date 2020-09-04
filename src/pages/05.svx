@@ -1,5 +1,15 @@
----
-    centered: true
----
+<script>
+    import CodeTabs from '../components/CodeTabs.svelte'
+    import Example from '../examples/06/Example.svelte'
+    import AccordeonCode from '../examples/06/Accordeon.svx'
+    import ExampleCode from '../examples/06/Example.svx'
 
-# Un simple accordéon
+    const items = [
+        { label: "L'accordéon", code: AccordeonCode },
+        { label: "L'example", code: ExampleCode }
+    ]
+</script>
+
+<Example />
+
+<CodeTabs {items} />

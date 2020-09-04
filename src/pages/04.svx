@@ -1,12 +1,5 @@
-# C'est un peu inutile non ?
+---
+    centered: true
+---
 
-La partie la plus importante d'un composant sans rendu est dans son `<script>`, où nous trouvons une logique commune.
-
-En combinaison avec des slots, nous pouvons ainsi abstrair le concept logique de style.
-
-```svelte
-<script>
-    <!-- ici des scripts commun pour ce type de composant -->
-</script>
-<slot></slot>
-```
+# Un simple accordéon

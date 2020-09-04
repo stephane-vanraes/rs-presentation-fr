@@ -1,13 +1,12 @@
----
-    centered: true
----
+# C'est un peu inutile non ?
 
-# Que sont les 'composant sans rendu' ?
+La partie la plus importante d'un composant sans rendu est dans son `<script>`, où nous trouvons une logique commune.
 
-Un composant sans rendu est un composant qui ne contient pas du HTML.
-
-Example de base:
+En combinaison avec des slots, nous pouvons ainsi abstrair le concept logique de style.
 
 ```svelte
+<script>
+    <!-- ici des scripts commun pour ce type de composant -->
+</script>
 <slot></slot>
 ```

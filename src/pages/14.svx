@@ -1,20 +1,10 @@
-<script>
-    import CodeTabs from '../components/CodeTabs.svelte'
-    import Example from '../examples/14/Example.svelte'
-    import ExampleCode from '../examples/14/Example.svx'
-    import AccordeonCode from '../examples/14/Accordeon.svx'
-    import AccordeonItemCode from '../examples/14/AccordeonItem.svx'
+---
+    centered: true
+---
 
-    const items = [
-        { label: "Le complex", code: AccordeonCode },
-        { label: "L'accordéon", code: AccordeonItemCode },
-        { label:"L'usage", code: ExampleCode } 
-    ]
-</script>
+# [www.renderless-svelte.dev](http://www.renderless-svelte.dev)
+# [@StephaneVanraes](https://twitter.com/StephaneVanraes)
 
-# Encore du context module
+# 'Rainlife' sur le Discord Svelte 👋
 
-Nous pouvons également utiliser l'approche du context module pour faciliter une sorte de communication entre les composants enfants.
-<br/>
-<Example />
-<CodeTabs {items} />
+[https://stephane-vanraes.github.io/rs-presentation-fr/](https://stephane-vanraes.github.io/rs-presentation-fr/)
