@@ -1,6 +1,6 @@
 <script>
-    import Smurfs from '../examples/08/Smurfs.svelte'
-    import NotSmurfs from '../examples/08/NotSmurfs.svelte'
+    import Smurfs from '../examples/07/Smurfs.svelte'
+    import NotSmurfs from '../examples/07/NotSmurfs.svelte'
 </script>
 
 # Différenciation

@@ -1,6 +1,6 @@
 <script>
     import CodeTabs from '../components/CodeTabs.svelte'
-    import Example from '../examples/07/Example.svelte'
+    import Example from '../examples/06/Example.svelte'
     import AccordeonCode from '../examples/06/Accordeon.svx'
     import ExampleCode from '../examples/06/Example.svx'
 

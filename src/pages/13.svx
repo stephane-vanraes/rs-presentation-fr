@@ -1,20 +1,15 @@
 <script>
     import CodeTabs from '../components/CodeTabs.svelte'
-    import Example from '../examples/14/Example.svelte'
-    import ExampleCode from '../examples/14/Example.svx'
-    import AccordeonCode from '../examples/14/Accordeon.svx'
-    import AccordeonItemCode from '../examples/14/AccordeonItem.svx'
 
-    const items = [
-        { label: "Le complex", code: AccordeonCode },
-        { label: "L'accordéon", code: AccordeonItemCode },
-        { label:"L'usage", code: ExampleCode } 
-    ]
+	import HtmlCode from '../examples/13/Html.svx'
+	import AppCode from '../examples/13/App.svx'
+
+	const items = [
+		{ label: 'HTML', code: HtmlCode },
+		{ label: 'App', code: AppCode },
+	]
 </script>
 
-# Encore du context module
+Une chose que l'on oublie souvent est que nous pouvons diviser et monter une application en plusieurs endroits sur la page. Toutes les parties de l'application partageront le même état afin de pouvoir également communiquer entre elles. Nous pouvons donc simplifier un peu plus notre code.
 
-Nous pouvons également utiliser l'approche du context module pour faciliter une sorte de communication entre les composants enfants.
-<br/>
-<Example />
 <CodeTabs {items} />

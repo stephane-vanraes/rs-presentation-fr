@@ -1,4 +1,3 @@
-
 ```svelte
 <script>
     import { slide } from 'svelte/transition'
@@ -7,7 +6,8 @@
 </script>
 
 {#each data as { name, image }}
-    <Accordeon header="{name}">
+    <Accordeon header="{name}" let:toggle>
+		<button slot="header" on:click={toggle}>{name}</button>
         <div in:slide out:slide>
             <img src="{image}" alt="{name}">
             <div>

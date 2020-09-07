@@ -2,4 +2,6 @@
     centered: true
 ---
 
-# Le Provider Pattern
+- Aucun markup sauf des slots
+- Logique commun dans le script
+- Exposez des variables et fonctions avec <strong>let:<strong>

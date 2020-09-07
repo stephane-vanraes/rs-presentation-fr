@@ -1,19 +1,5 @@
-<script>
-	import CodeTabs from '../components/CodeTabs.svelte'
-	import Example from '../examples/10/Example.svelte'
-	import ExampleCode from '../examples/10/Example.svx'
-	import SmurfCode from '../examples/10/Smurfs.svx'
-	import NotificationCode from '../examples/10/NotificationProvider.svx'
+---
+    centered: true
+---
 
-	const items = [
-		{ label: 'Les notifications', code: NotificationCode },
-		{ label: 'Les Schtroumpfs', code: SmurfCode },
-		{ label: 'La reste', code: ExampleCode },
-	]
-</script>
-
-# Notifications
-
-<Example />
-
-<CodeTabs {items} />
+# Le Provider Pattern

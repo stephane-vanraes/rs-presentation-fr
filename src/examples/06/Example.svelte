@@ -5,7 +5,8 @@
 </script>
 
 {#each smurfs as { description, name, image }}
-    <Accordeon header="{name}">
+    <Accordeon let:toggle>
+		<button slot="header" on:click={toggle}>{name}</button>
         <div in:slide out:slide>
             <div class="image">
 				<img src="{image}" alt="{name}">
@@ -19,6 +20,15 @@
 {/each}
 
 <style>
+	button {
+		border: 1px solid #ced4da;
+		cursor: pointer;
+		display: block;
+        font-size: 1em;
+		margin: 0;
+		padding: .25rem;
+		width: 100%;
+	}
 	div {
 		display: flex;
         padding: 1rem;

@@ -2,9 +2,7 @@
     centered: true
 ---
 
-# [www.renderless-svelte.dev](http://www.renderless-svelte.dev)
-# [@StephaneVanraes](https://twitter.com/StephaneVanraes)
-
-# 'Rainlife' sur le Discord Svelte 👋
-
-[https://stephane-vanraes.github.io/rs-presentation-fr/](https://stephane-vanraes.github.io/rs-presentation-fr/)
+- Le <strong>ContextAPI</strong> parmis de diffuser de fonctions et variable aux descendants
+- Utilisez des stores dans le ContextAPI pour avoir du reactivité
+- <strong>context="module"</strong> est partagée parmis tous les instance
+- Le composant n'est pas obligée d'être monté au même endroit que ton <strong>App.svelte</strong>

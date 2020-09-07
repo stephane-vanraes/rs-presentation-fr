@@ -1,15 +1,13 @@
 ```svelte
 <script>
-	export let header
+	export let isOpen = false
 	
-	let isOpen = false
-	const toggle = () => isOpen = !isOpen
+	const close = () => isOpen = false
+	const toggle = () => isOpen = !isOpen	
 </script>
 
-<div>
-	<button on:click={toggle}>{header}</button>
-	{#if isOpen}
-		<slot />
-	{/if}
-</div>
+<slot name="header" {toggle} {isOpen} />
+{#if isOpen}
+	<slot />
+{/if}
 ```

@@ -1,15 +1,17 @@
 <script>
     import CodeTabs from '../components/CodeTabs.svelte'
 
-	import HtmlCode from '../examples/13/Html.svx'
-	import AppCode from '../examples/13/App.svx'
+	import ExampleCode from '../examples/12/Example.svx'
+	import SmurfCode from '../examples/12/Smurfs.svx'
+	import NotificationCode from '../examples/12/Notification.svx'
 
 	const items = [
-		{ label: 'HTML', code: HtmlCode },
-		{ label: 'App', code: AppCode },
+		{ label: 'Les notifications', code: NotificationCode },
+		{ label: 'Les Schtroumpfs', code: SmurfCode },
+		{ label: 'La reste', code: ExampleCode },
 	]
 </script>
 
-Une chose que l'on oublie souvent est que nous pouvons diviser et monter une application en plusieurs endroits sur la page. Toutes les parties de l'application partageront le même état afin de pouvoir également communiquer entre elles. Nous pouvons donc simplifier un peu plus notre code.
+# En utilisant le 'context module'
 
 <CodeTabs {items} />

@@ -1,25 +1,19 @@
-```jsx
-const App: React.FC = ({ children }) => (
-  <Router history={createBrowserHistory()}>
-    <AuthProvider>
-      <TelemetryProvider>
-        <ValidationProvider>
-          <NotifyProvider>
-            <Authorize>
-                <CustomerProvider>
-                    <ModalProvider>
-                        <Switch>
-                        <Route exact path="/loading" component={LoadingScreen} />
-                        <Route exact path="/profile" component={ProfilePage} />
-                        <Route path="*" component={LoginPage} />
-                        </Switch>
-                    </ModalProvider>
-                </CustomerProvider>
-            </Authorize>
-          </NotifyProvider>
-        </ValidationProvider>
-      </TelemetryProvider>
-    </AuthProvider>
-  </Router>
-)
-```
+<script>
+	import CodeTabs from '../components/CodeTabs.svelte'
+	import Example from '../examples/10/Example.svelte'
+	import ExampleCode from '../examples/10/Example.svx'
+	import SmurfCode from '../examples/10/Smurfs.svx'
+	import NotificationCode from '../examples/10/NotificationProvider.svx'
+
+	const items = [
+		{ label: 'Les notifications', code: NotificationCode },
+		{ label: 'Les Schtroumpfs', code: SmurfCode },
+		{ label: 'La reste', code: ExampleCode },
+	]
+</script>
+
+# Notifications
+
+<Example />
+
+<CodeTabs {items} />
