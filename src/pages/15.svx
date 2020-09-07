@@ -12,9 +12,9 @@
     ]
 </script>
 
-# Encore du context module
+# Et encore une fois
 
-Nous pouvons également utiliser l'approche du context module pour faciliter une sorte de communication entre les composants enfants.
+Nous pouvons également utiliser l'approche du ContextAPI pour faciliter une sorte de communication entre les composants enfants.
 <br/>
 <Example />
 <CodeTabs {items} />
