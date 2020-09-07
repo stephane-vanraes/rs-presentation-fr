@@ -82,9 +82,9 @@
 	{#each pages as page, idx (page.id)}
 	<div class:current={$currentIndex === idx}
 		 class:past={$currentIndex > idx}
-		 style="--hue: {page.hue}">
-		<button on:click="{() => moveTo(idx)}"
-				in:scale={{ duration: 100, delay: 50*idx }}>
+		 style="--hue: {page.hue}"
+		 in:scale={{ duration: 100, delay: 50*idx }}>
+		<button on:click="{() => moveTo(idx)}">
 			{idx+1}
 		</button>
 		<div class="line" />
