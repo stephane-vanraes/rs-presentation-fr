@@ -38,3 +38,13 @@ ul {
 	list-style-type: square;
 	text-align: left;
 }
+
+.contact-link {
+	align-items: flex-end;
+	display: flex;
+    justify-content: center;
+}
+.contact-link > svg {
+	fill: currentColor;	
+	margin-right: 1ch;
+}
