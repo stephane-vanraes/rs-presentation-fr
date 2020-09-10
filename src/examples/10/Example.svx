@@ -6,10 +6,13 @@
 </script>
 
 <NotificationProvider>
+
 	<div in:fly={{ x: 500 }} slot="notification" class="notification" let:hide let:payload>
 		<button on:click={hide}>&times;</button>
 		<span>{payload}</span>
 	</div>
+
 	<Smurfs />
+	
 </NotificationProvider>
 ```

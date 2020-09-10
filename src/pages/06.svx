@@ -6,7 +6,7 @@
 
     const items = [
         { label: "L'accordéon", code: AccordeonCode },
-        { label: "L'example", code: ExampleCode }
+        { label: "l'exemple", code: ExampleCode }
     ]
 </script>
 

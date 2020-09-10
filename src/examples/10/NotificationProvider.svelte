@@ -11,7 +11,7 @@
 	const show = val => {
 		payload = val
 		timeout && clearTimeout(timeout)
-		timeout = setTimeout(hide, 3000)
+		timeout = setTimeout(hide, 5000)
 	}
 
 	setContext('notification-show', show)	

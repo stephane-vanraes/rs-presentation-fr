@@ -6,7 +6,7 @@
 </script>
 
 {#each data as { name, image }}
-    <Accordeon header="{name}" let:toggle>
+    <Accordeon let:toggle>
 		<button slot="header" on:click={toggle}>{name}</button>
         <div in:slide out:slide>
             <img src="{image}" alt="{name}">

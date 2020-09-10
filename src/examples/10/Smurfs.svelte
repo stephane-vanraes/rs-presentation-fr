@@ -7,7 +7,7 @@
 
 <div>
 	{#each smurfs as smurf}		
-		<div class="image" on:click="{() => show(`C'est ${smurf.name}`)}">
+		<div class="image" on:click="{() => show(smurf.notification)}">
 			<img src="{smurf.image}" alt="">
 		</div>
 	{/each}

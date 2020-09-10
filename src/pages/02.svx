@@ -6,7 +6,7 @@
 
 Un composant sans rendu est un composant qui ne contient pas du HTML.
 
-Example de base:
+Example d base:
 
 ```svelte
 <slot></slot>

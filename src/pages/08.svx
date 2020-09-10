@@ -2,6 +2,6 @@
     centered: true
 ---
 
-- Aucun markup sauf des slots
+- Aucun markup sauf des slots et des directives
 - Logique commun dans le script
 - Exposez des variables et fonctions avec <strong>let:<strong>

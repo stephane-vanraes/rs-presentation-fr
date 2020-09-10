@@ -1,13 +1,12 @@
 <script>
 	import { setContext } from 'svelte'
-	import { writable } from 'svelte/store'
 	
-	let current = writable(false)
+	let current = false
 	
 	setContext('accordeon', {
 		setCurrent: fn => {
-			$current && $current !== fn && $current()
-			current.set(fn)
+			current && current !== fn && current()
+			current = fn
 		}
 	})
 </script>
