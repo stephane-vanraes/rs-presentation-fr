@@ -13,7 +13,6 @@ import Page12 from './pages/12.svx'
 import Page13 from './pages/13.svx'
 import Page14 from './pages/14.svx'
 import Page15 from './pages/15.svx'
-import Page16 from './pages/16.svx'
 
 export default [
     { id: 1, component: Page1, hue: 210 },      // blue
@@ -28,8 +27,7 @@ export default [
     { id: 10, component: Page10, hue: 142 },
     { id: 11, component: Page11, hue: 144 },
     { id: 12, component: Page12, hue: 146 },
-    { id: 13, component: Page13, hue: 148 },
-    { id: 14, component: Page14, hue: 150 },
-    { id: 15, component: Page15, hue: 50 },
-    { id: 16, component: Page16, hue: 320 }, 
+    { id: 13, component: Page13, hue: 150 },
+    { id: 14, component: Page14, hue: 50 },
+    { id: 15, component: Page15, hue: 320 } 
 ]

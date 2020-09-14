@@ -8,12 +8,15 @@
 
 {#each data as { name, image }}
     <Accordeon header="{name}">
+
         <div in:slide out:slide>
             <img src="{image}" alt="{name}">
             <div>
                 <h3>{name}</h3>
-            </div>		
+				<p>{description}</p>
+            </div>	
         </div>
+
     </Accordeon>
 {/each}
 ```

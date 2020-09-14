@@ -6,15 +6,18 @@
 
 {#each smurfs as { description, name, image }}
     <Accordeon header="{name}">
+
         <div in:slide out:slide>
             <div class="image">
 				<img src="{image}" alt="{name}">
 			</div>
+
             <div class="content">
                 <h3>{name}</h3>
 				<p>{description}</p>
             </div>
         </div>
+
     </Accordeon>
 {/each}
 

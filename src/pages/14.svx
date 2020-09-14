@@ -1,8 +1,20 @@
----
-    centered: true
----
+<script>
+    import CodeTabs from '../components/CodeTabs.svelte'
+    import Example from '../examples/14/Example.svelte'
+    import ExampleCode from '../examples/14/Example.svx'
+    import AccordeonCode from '../examples/14/Accordeon.svx'
+    import AccordeonItemCode from '../examples/14/AccordeonItem.svx'
 
-- Le <strong>ContextAPI</strong> parmis de diffuser de fonctions et variable aux descendants
-- Utilisez des stores dans le ContextAPI pour avoir du reactivité
-- <strong>context="module"</strong> est partagée parmis tous les instance
-- Le composant n'est pas obligée d'être monté au même endroit que ton <strong>App.svelte</strong>
+    const items = [
+        { label: "L'accordéon", code: AccordeonCode },
+        { label: "L'accordéon item", code: AccordeonItemCode },
+        { label:"L'usage", code: ExampleCode } 
+    ]
+</script>
+
+# Et encore une fois
+
+Nous pouvons également utiliser l'approche du ContextAPI pour faciliter une sorte de communication entre les composants enfants.
+<br/>
+<Example />
+<CodeTabs {items} />

@@ -7,9 +7,11 @@
 </script>
 
 <Accordeon>
-	{#each smurfs as { description, name, image }}
+	{#each smurfs as { description, name, image }
 		<AccordeonItem let:toggle>
+
 			<button slot="header" on:click={toggle}>{name}</button>
+
 			<div in:slide out:slide>
 				<div class="image">
 					<img src="{image}" alt="{name}">
@@ -19,6 +21,7 @@
 					<p>{description}</p>
 				</div>
 			</div>
+			
 		</AccordeonItem>
 	{/each}
 </Accordeon>

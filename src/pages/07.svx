@@ -5,8 +5,5 @@
 
 # Différenciation
 
-Les deux cas suivants utilisent le même accordéon de base, mais sont différents de style.
-<br/>
 <Smurfs />
 <NotSmurfs />
-

@@ -13,6 +13,7 @@
 </script>
 
 <slot name="header" {toggle} {isOpen} />
+
 {#if isOpen}
 	<slot />
 {/if}

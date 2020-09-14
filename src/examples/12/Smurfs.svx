@@ -5,10 +5,12 @@
 </script>
 
 <div>
-	{#each smurfs as smurf}		
+	{#each smurfs as smurf}	
+
 		<div class="image" on:click="{() => show(`C'est ${smurf.name}`)}">
 			<img src="{smurf.image}" alt="">
 		</div>
+		
 	{/each}
 </div>
 ```

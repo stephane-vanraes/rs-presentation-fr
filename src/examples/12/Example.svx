@@ -6,10 +6,12 @@
 </script>
 
 <Notification>
+
 	<div in:fly={{ x: 500 }} slot="notification" class="notification" let:hide let:payload>
 		<button on:click={hide}>&times;</button>
 		<span>{payload}</span>
 	</div>
+	
 </Notification>
 
 <Smurfs />

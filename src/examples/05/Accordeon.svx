@@ -8,6 +8,7 @@
 
 <div>
 	<button on:click={toggle}>{header}</button>
+	
 	{#if isOpen}
 		<slot />
 	{/if}
