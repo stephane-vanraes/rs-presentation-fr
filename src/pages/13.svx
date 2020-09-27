@@ -1,7 +1,0 @@
----
-    centered: true
----
-
-- Le <strong>ContextAPI</strong> permis de diffuser des variables aux descendants
-- <strong>context="module"</strong> est partagée parmis tous les instance
-- Utilisez des stores dans les contexts pour avoir du reactivité

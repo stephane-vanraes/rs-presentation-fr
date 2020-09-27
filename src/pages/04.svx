@@ -1,5 +1,0 @@
----
-    centered: true
----
-
-# Un simple accordéon
