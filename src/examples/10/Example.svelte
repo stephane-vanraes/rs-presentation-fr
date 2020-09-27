@@ -16,14 +16,14 @@
 	.notification {
 		background-color: hsl(40, 100%, 80%);
 		border-color: hsl(40, 100%, 30%);
-		border-radius: .5rem 0 0 0;
+		border-radius: .5rem 0 0 .5rem;
 		border-style: solid;
-		border-width: 2px 0 0 2px;
+		border-width: 2px 0 2px 2px;
 		color: black;
 		margin: 0;
 		padding: .5rem;
 		position: fixed;
-		bottom: 0;
+		top: 4rem;
 		right: 0;
 		height: 100px;
 		width: 33%;

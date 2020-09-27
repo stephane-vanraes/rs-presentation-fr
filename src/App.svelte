@@ -11,7 +11,7 @@
 
 <style>
 	main {		
-		background-color: hsl(var(--hue), 100%, 80%);
+		background-color: hsl(var(--hue), 100%, 90%);
 		border: 2px solid hsl(var(--hue), 100%, 30%);
 		border-radius: .25em;
 		color: black;
